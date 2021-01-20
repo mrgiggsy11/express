@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", sans-serif;
+}
+
+header {
+  background-color: lightblue;
+  height: 8vh;
+  background-size: cover;
+  background-position: center;
+  z-index: 100;
+}
+
+body {
+  background-color: #1c2541;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 15px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: #165675;
+  padding: 5px 20px;
+  transition: 0.6s ease;
+  font-weight: bold;
+}
+ul li a:hover {
+  background-color: #fff;
+  color: black;
+  margin-left: 30px;
+}
+.logo img {
+  float: left;
+  width: 100px;
+  height: auto;
+}
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title h1 {
+  color: rgb(241, 184, 28);
+  font-size: 70px;
+}
+
+.school-container {
+  width: 60%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+.school-slide {
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+#prevBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.button {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  background-color: #248ec1;
+  padding: 10px 30px;
+  color: rgb(246, 246, 246);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.6s ease;
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: #165675;
+  color: rgb(240, 232, 232);
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.Card {
+  width: 20rem;
+  overflow: hidden;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+.Card-body {
+  padding: 3rem 0 !important;
+}
+
+.Card p {
+  font-size: 1.1rem;
+  font-weight: lighter;
+  color: white;
+  padding: 20px 0;
+}
+.Card img {
+  height: 13rem;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+#contact {
+  margin-top: 150px;
+  color: lightblue;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 50%;
+}
+
+#contact form > button {
+  align-self: center;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+#contact form > button:hover {
+  color: white;
+  background-color: black;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+  color: #248ec2;
+  padding: 15px;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+input {
+  height: 25px;
+  padding: 7px;
+}
+textarea {
+  padding: 7px;
+}
+
+.block {
+  justify-content: space-around;
+}
+button {
+  background-color: #248ec2;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #248ec2;
+  color: white;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.Card h1 {
+  text-align: center;
+  color: rgb(241, 184, 28);
+}
